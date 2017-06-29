@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RailsFb</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+	<script src="https://use.fontawesome.com/93240b2ad9.js"></script>
+</head>
+<body>
+
+	<div class="header">
+		<div>
+			<div id="fb-header-logo">
+				<i class="fa fa-facebook-square" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+
+
+<%= yield %>
+
+</body>
+</html>
